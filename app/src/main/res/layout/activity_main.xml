@@ -23,6 +23,18 @@
         android:layout_below="@id/flashcard_question"
         android:textSize="35dp"
         android:text="It's working online in freelance"
-        android:gravity="center"/>
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:text="Button"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/buttonadd"
+        />
 
 </RelativeLayout>
